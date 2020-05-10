@@ -16,8 +16,8 @@ def join_nested_strings(src)
     end
   row_index += 1
   end     
-puts final_string = outer_array.join(" ")
-
+final_string = outer_array.join(" ")
+puts final_string
 end
 
 
