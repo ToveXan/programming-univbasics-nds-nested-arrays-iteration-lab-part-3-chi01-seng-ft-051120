@@ -11,9 +11,9 @@ def join_nested_strings(src)
         new_string = src[row_index][element_index]
         puts new_string
       end
+      outer_array = new_string
       element_index += 1
     end
-  outer_array = new_string
   row_index += 1
   end     
 outer_array
