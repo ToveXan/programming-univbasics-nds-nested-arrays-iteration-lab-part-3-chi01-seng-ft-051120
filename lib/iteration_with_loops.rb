@@ -8,6 +8,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
       if element_index.is_a? String
         p element_index
+        
       end
       element_index += 1
     end
