@@ -9,7 +9,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
       if element_index.is_a? String
         new_string = src[row_index][element_index]
-        new_string
+        puts new_string
       end
       outer_array << new_string
       element_index += 1
