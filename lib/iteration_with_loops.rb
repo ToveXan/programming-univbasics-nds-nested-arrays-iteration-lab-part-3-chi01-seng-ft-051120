@@ -10,6 +10,7 @@ def join_nested_strings(src)
       if src[row_index][element_index].is_a?(String)
         new_string = src[row_index][element_index]
         puts new_string
+        outer_array << new_string
       end
     
       element_index += 1
