@@ -11,13 +11,13 @@ def join_nested_strings(src)
         new_string = src[row_index][element_index]
         new_string
       end
-      outer_array << new_string
+      new_string << outer_array
       element_index += 1
     end
   row_index += 1
   end     
 final_string = outer_array.join(" ")
-puts final_string
+
 end
 
 
